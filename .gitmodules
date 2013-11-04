@@ -1,0 +1,3 @@
+[submodule "Submodules/polipo"]
+	path = Submodules/polipo
+	url = git@github.com:chrisballinger/polipo.git
