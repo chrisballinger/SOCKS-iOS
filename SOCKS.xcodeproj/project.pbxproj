@@ -166,9 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				D9EA53E918279D4D00CB83C9 /* SCKPolipoWrapper.h */,
+				D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */,
 				D9EA53EC18279F3700CB83C9 /* SCKMainViewController.h */,
 				D9EA53ED18279F3700CB83C9 /* SCKMainViewController.m */,
-				D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */,
 				D9EA535D18279A0C00CB83C9 /* SCKAppDelegate.h */,
 				D9EA535E18279A0C00CB83C9 /* SCKAppDelegate.m */,
 				D9EA536018279A0C00CB83C9 /* Images.xcassets */,

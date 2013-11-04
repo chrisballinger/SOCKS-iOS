@@ -39,7 +39,7 @@ extern int polipo_main(int argc, char *argv[]);
         }
         self.isStarted = YES;
         NSMutableArray *arguments = [NSMutableArray arrayWithCapacity:1+[options count]];
-        [arguments addObject:@"openvpn"];
+        [arguments addObject:@"polipo"];
         [arguments addObjectsFromArray:options];
         
         int argc = [arguments count];

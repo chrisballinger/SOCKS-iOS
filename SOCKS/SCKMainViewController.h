@@ -10,4 +10,6 @@
 
 @interface SCKMainViewController : UIViewController
 
+@property (nonatomic, strong) UIButton *button;
+
 @end
