@@ -41,6 +41,7 @@
 		D9EA53E718279A6900CB83C9 /* tunnel.c in Sources */ = {isa = PBXBuildFile; fileRef = D9EA53BD18279A6900CB83C9 /* tunnel.c */; };
 		D9EA53E818279A6900CB83C9 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = D9EA53BF18279A6900CB83C9 /* util.c */; };
 		D9EA53EB18279D4D00CB83C9 /* SCKPolipoWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */; };
+		D9EA53EE18279F3700CB83C9 /* SCKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA53ED18279F3700CB83C9 /* SCKMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,8 @@
 		D9EA53C018279A6900CB83C9 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		D9EA53E918279D4D00CB83C9 /* SCKPolipoWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCKPolipoWrapper.h; sourceTree = "<group>"; };
 		D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCKPolipoWrapper.m; sourceTree = "<group>"; };
+		D9EA53EC18279F3700CB83C9 /* SCKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCKMainViewController.h; sourceTree = "<group>"; };
+		D9EA53ED18279F3700CB83C9 /* SCKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCKMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				D9EA53E918279D4D00CB83C9 /* SCKPolipoWrapper.h */,
+				D9EA53EC18279F3700CB83C9 /* SCKMainViewController.h */,
+				D9EA53ED18279F3700CB83C9 /* SCKMainViewController.m */,
 				D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */,
 				D9EA535D18279A0C00CB83C9 /* SCKAppDelegate.h */,
 				D9EA535E18279A0C00CB83C9 /* SCKAppDelegate.m */,
@@ -290,6 +295,15 @@
 				CLASSPREFIX = SCK;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Christopher Ballinger";
+				TargetAttributes = {
+					D9EA534A18279A0C00CB83C9 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = D9EA534618279A0C00CB83C9 /* Build configuration list for PBXProject "SOCKS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,6 +344,7 @@
 				D9EA53CC18279A6900CB83C9 /* diskcache.c in Sources */,
 				D9EA53DD18279A6900CB83C9 /* md5import.c in Sources */,
 				D9EA53E818279A6900CB83C9 /* util.c in Sources */,
+				D9EA53EE18279F3700CB83C9 /* SCKMainViewController.m in Sources */,
 				D9EA53E718279A6900CB83C9 /* tunnel.c in Sources */,
 				D9EA53C618279A6900CB83C9 /* chunk.c in Sources */,
 				D9EA53E018279A6900CB83C9 /* parse_time.c in Sources */,

@@ -12,7 +12,7 @@
 
 @property (nonatomic) dispatch_queue_t queue;
 
-+ (VPNWrapper*) sharedInstance;
++ (SCKPolipoWrapper*) sharedInstance;
 
 - (void) startWithOptions:(NSArray*)options;
 
