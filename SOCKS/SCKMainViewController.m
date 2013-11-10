@@ -40,13 +40,14 @@
     [[SCKPolipoWrapper sharedInstance] startWithOptions:options];
     
     
-    self.socket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+    /*self.socket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     NSError *error = nil;
     uint16_t portNumber = 8000;
     [socket acceptOnPort:portNumber error:&error];
     if (error) {
         NSLog(@"Error listening on port %d", portNumber);
     }
+     */
 }
 
 - (void) viewWillAppear:(BOOL)animated {
