@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCDAsyncSocket.h"
 
-@interface SCKMainViewController : UIViewController
+@interface SCKMainViewController : UIViewController <GCDAsyncSocketDelegate>
 
 @property (nonatomic, strong) UIButton *button;
+@property (nonatomic, strong) GCDAsyncSocket *socket;
 
 @end

@@ -1,3 +1,6 @@
 [submodule "Submodules/polipo"]
 	path = Submodules/polipo
 	url = git@github.com:chrisballinger/polipo.git
+[submodule "Submodules/CocoaAsyncSocket"]
+	path = Submodules/CocoaAsyncSocket
+	url = git@github.com:robbiehanson/CocoaAsyncSocket.git

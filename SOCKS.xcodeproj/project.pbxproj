@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D931A60A18300CCC00593FF9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D931A60918300CCC00593FF9 /* GCDAsyncSocket.m */; };
 		D9EA534F18279A0C00CB83C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA534E18279A0C00CB83C9 /* Foundation.framework */; };
 		D9EA535118279A0C00CB83C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA535018279A0C00CB83C9 /* CoreGraphics.framework */; };
 		D9EA535318279A0C00CB83C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA535218279A0C00CB83C9 /* UIKit.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D931A60818300CCC00593FF9 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Submodules/CocoaAsyncSocket/GCD/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		D931A60918300CCC00593FF9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Submodules/CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
 		D9EA534B18279A0C00CB83C9 /* SOCKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOCKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EA534E18279A0C00CB83C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9EA535018279A0C00CB83C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +168,8 @@
 		D9EA535418279A0C00CB83C9 /* SOCKS */ = {
 			isa = PBXGroup;
 			children = (
+				D931A60818300CCC00593FF9 /* GCDAsyncSocket.h */,
+				D931A60918300CCC00593FF9 /* GCDAsyncSocket.m */,
 				D9EA53E918279D4D00CB83C9 /* SCKPolipoWrapper.h */,
 				D9EA53EA18279D4D00CB83C9 /* SCKPolipoWrapper.m */,
 				D9EA53EC18279F3700CB83C9 /* SCKMainViewController.h */,
@@ -350,6 +355,7 @@
 				D9EA53E018279A6900CB83C9 /* parse_time.c in Sources */,
 				D9EA53D718279A6900CB83C9 /* local.c in Sources */,
 				D9EA53DF18279A6900CB83C9 /* object.c in Sources */,
+				D931A60A18300CCC00593FF9 /* GCDAsyncSocket.m in Sources */,
 				D9EA53CB18279A6900CB83C9 /* dirent_compat.c in Sources */,
 				D9EA53CD18279A6900CB83C9 /* dns.c in Sources */,
 				D9EA53D918279A6900CB83C9 /* log.c in Sources */,

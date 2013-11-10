@@ -14,6 +14,7 @@
 @end
 
 @implementation SCKMainViewController
+@synthesize socket;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +38,15 @@
     [super viewDidAppear:animated];
     NSArray *options = @[@"socksProxyType=socks5", @"proxyAddress=0.0.0.0", @"dnsUseGethostbyname=yes"];
     [[SCKPolipoWrapper sharedInstance] startWithOptions:options];
+    
+    
+    self.socket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+    NSError *error = nil;
+    uint16_t portNumber = 8000;
+    [socket acceptOnPort:portNumber error:&error];
+    if (error) {
+        NSLog(@"Error listening on port %d", portNumber);
+    }
 }
 
 - (void) viewWillAppear:(BOOL)animated {
